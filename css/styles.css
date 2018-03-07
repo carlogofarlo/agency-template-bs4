@@ -1,0 +1,251 @@
+/* XXXXXXXX COLORS XXXXXXXX 
+
+Red #ce1f2e
+
+*/
+
+/* XXXXXXXX NAVBAR STYLES XXXXXXXX */
+
+.navbar {
+    background-color: #000 !important;
+    padding: 15px 35px;
+}
+
+.navbar li a {
+    color: #fff !important;
+    padding-left: 35px !important;
+    text-transform: uppercase;
+}
+
+.navbar li a:hover {
+    color: #666 !important;
+}
+
+.dropdown-menu {
+    background-color: #111 !important;
+}
+
+.dropdown-menu a:hover {
+    background-color: #222 !important;
+}
+
+#nav-select {
+    color: #333 !important;
+}
+
+/* XXXXXXXX BASIC PAGE STYLES XXXXXXXX */
+
+body {
+    font-family: 'Lato', sans-serif; 
+}
+
+a {
+    color: #ce1f2e;
+}
+
+a:hover {
+    color: #c22237;
+}
+
+h2,h3,h4 {
+    color: #333;
+    font-weight: 900;
+}
+
+.lone-button {
+    text-align: center;
+    padding: 25px 0px;
+}
+
+.bottom-space {
+    padding-bottom: 30px;
+}
+
+small {
+    color: #999;
+}
+
+/* XXXXXXXX INDIVIDUAL SECTION STYLES XXXXXXXX */
+
+#home-heading {
+    background-image: url("http://via.placeholder.com/1200x950");
+    background-size: cover;
+    padding: 150px 25px;
+}
+
+#home-heading-temp {
+    background-image: url("http://via.placeholder.com/1200x950");
+    background-size: cover;
+    height: 100vh;
+    padding: 150px 25px;
+    color: #fff;
+}
+
+#home-heading-temp a {
+    color: #fff;
+}
+
+#short-heading {
+    background-image: url("http://via.placeholder.com/1200x950");
+    background-size: cover;
+    padding: 120px 25px 15px 25px;
+    color: #fff;
+}
+
+#short-heading h1 {
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+#home-s-1, #about-s-1, #readers-s-1, #print-s-1, #web-s-1,#digital-s-1, #social-s-1, #events-s-1, #newsletters-s-1 {
+    padding: 50px 15px 25px 15px;
+}
+
+#promo-s-1 {
+    padding: 50px 15px 0px 15px;
+}
+
+#promo-s-2 {
+    padding: 25px 15px 50px 15px;
+}
+
+#home-s-1 h1 {
+    color: #ce1f2e;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+#contact-s-1, #adv-s-1 {
+    padding: 50px 15px;
+}
+
+#home-s-2,#about-s-2,#print-s-2, #web-s-2 {
+    padding: 50px 15px;
+}
+
+#web-s-2 img {
+    border: 2px solid #dad8d9;
+    margin-bottom: 15px;
+}
+
+#web-s-2 p {
+    padding-top: 10px;
+}
+
+#contact-s-2 {
+    padding: 0px 15px 50px 15px;
+}
+
+#contact-s-2 img {
+    padding-bottom: 15px;
+}
+
+#home-s-2 h3, #readers-s-1 h3, #web-s-1 h3 {
+    color: #ce1f2e;
+    font-weight: 900;
+    font-size: 2.5em;
+}
+
+#home-s-3, #readers-s-3 {
+    padding: 35px 15px;
+}
+
+#home-s-4 {
+    padding: 25px 15px;
+}
+
+/* XXXXXXXX FOOTER STYLE XXXXXXXX */
+
+#footer {
+    background-color: #333;
+    font-size: 14px;
+}
+
+#footer-top {
+    background-color: #333;
+    padding: 50px 15px;
+    color: #707070;
+}
+
+#footer-top h4 {
+    color: #fff;
+}
+
+#footer-top a, #footer-bottom a{
+    color: #707070;
+}
+
+.footer-lists {
+    list-style: none;
+    padding-left: 0px;
+}
+
+#footer-bottom {
+    background-color: #252525;
+    padding: 25px;
+    color: #707070;
+    text-align: center;
+}
+
+#footer-bottom ul {
+    list-style: none;
+    padding-left: 0px;
+    margin-bottom: 0px;
+    
+}
+
+#footer-bottom li {
+    display: inline;
+    padding: 0px 10px;
+}
+
+#mc_embed_signup {
+    clear:left;
+    font:14px;
+}
+
+/* XXXXXXXX ICONS XXXXXXXX */
+
+.oi {
+    color: #ce1f2e;
+}
+
+#about-s-2 .oi, #readers-s-2 .oi, #readers-s-3 .oi {
+    font-size: 3.5em;
+}
+
+#social-icons {
+    padding: 20px 0px 30px 0px;
+}
+
+
+/* XXXXXXXX PAGE BREAK NEEDS XXXXXXXX */
+
+@media screen and (max-width: 48em){
+
+    #promo-s-1 h2, #promo-s-2 h2 {
+        padding-top: 20px;
+    }
+    
+    #staff {
+        text-align: center;
+    }
+    
+    #contact-s-2 img {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 60em){
+    
+    #footer-bottom li {
+        display: block;
+        padding: 0px 20px;
+    }
+
+    #social-icons {
+        padding: 20px 0px 30px 0px;
+        text-align: center;
+    }    
+    
+}
